@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}  
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  background: radial-gradient(50% 0% at 0% 0%, #7C808C 0%, #4E5158 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 150px;
+  display: flex;
+}
+h1,
+p,
+ul {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
