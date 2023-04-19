@@ -1,0 +1,244 @@
+.container-iphone {
+  position: relative;
+  background: #1B202D;
+  box-shadow: 40px 40px 100px rgba(6, 15, 20, 0.25);
+  border-radius: 50px;
+  width: 428px;
+}
+.container-iphone-13-1 {
+
+  h2 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+    color: rgba(255, 255, 255, 0.58);
+    margin-left: 25px;
+    margin-bottom: 13px;
+  }
+}
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 19px 22px 28px 19px;
+  padding: 2px 5px 0 7px;
+  .status-bar__time {
+    margin-right: 65px;
+  }
+}
+.messages-and-search-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 26px 0 25px;
+  h1 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+  }
+  img {
+    margin-bottom: 6px;
+  }
+}
+.recent-contacts {
+  display: flex;
+  gap: 30px;
+  margin: 0 0 25px 25px;
+  .recent-contacts__item{
+    img {
+      margin-bottom: 5px;
+    }
+    p{
+      text-align: center;
+      line-height: 24px;
+    }
+  }
+  .recent-contacts__item:last-child {
+    p {
+      margin-left: 9px;
+    }
+  }
+}
+
+.contacts {
+  background: #292F3F;
+  border-radius: 50px;
+}
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  // gap: 30.6px;
+  li:first-child {
+    padding-top: 46px;
+    margin-bottom: 23px;
+  }
+  li:nth-child(2),
+  li:nth-child(3) {
+    margin-bottom: 26px;
+  }
+  li:nth-child(2) {
+    .smile-ico {
+      margin-left: 27px;
+    }
+    .heart-ico {
+      margin-left: 3px;
+    }
+  }
+  li:last-child {
+    margin-bottom: 53px;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 23px 0 26px;
+    margin: 0 0 25px;
+    .contact__item {
+      display: flex;
+      gap: 18.83px;
+    }
+
+    .contact__name {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      // margin-right: 142px;
+    }
+    .contact__status {
+      font-size: 14px;
+      line-height: 21px;
+      color: #B3B9C9;
+      margin-bottom: 8px;
+    }
+    .contact__date {
+      font-size: 14px;
+      line-height: 21px;
+      color: #B3B9C9;
+      margin-bottom: 36px;
+    }
+  }
+}
+.danny {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 214px;
+  img {
+    width: 44px;
+    height: 44px;
+  }
+  p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.messages {
+  padding: 0 27px 0 30px;
+  display: grid;
+  margin-top: 40px;
+  .msg-date {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .msg {
+    font-size: 14px;
+    line-height: 21px;
+
+  }
+  .msg_dark-grey-bg {
+    background: #373E4E;
+    border-radius: 20px;
+
+
+  }
+  .msg_dark-grey-bg_1,
+  .msg_dark-grey-bg_2,
+  .msg_dark-grey-bg_3 {
+    padding: 5px 0 3px 17px;
+    margin-bottom: 12px;
+  }
+  .msg_dark-grey-bg_1 {
+    width: 341px;
+  }
+  .msg_light-grey-bg_1,
+  .msg_light-grey-bg_2,
+  .msg_light-grey-bg_3,
+  .msg_light-grey-bg_4 {
+    margin-bottom: 12px;
+  }
+  .msg_light-grey-bg_1 {
+    width: 341px;
+  }
+  .msg_dark-grey-bg_2  {
+    width: 140px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+
+  }
+  .msg_light-grey-bg {
+    background: #7A8194;
+    border-radius: 20px;
+    text-align: right;
+    padding: 11px 24px 6px 15px;
+    width: 303px;
+    justify-self: flex-end;
+  }
+  .msg_light-grey-bg_2 {
+    width: 341px;
+    height: 73px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+  .msg_light-grey-bg_3,
+  .msg_light-grey-bg_4 {
+    width: 49px;
+    height: 42px;
+  }
+  .msg_dark-grey-bg_3 {
+    width: 275px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+  }
+}
+.msg_dark-grey-bg_4 {
+  width: 378px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 123px;
+  margin-bottom: 32px;
+  padding-left: 8px;
+  padding-right: 16px;
+  .camera-and-msg {
+    display: flex;
+    width: 102px;
+    align-items: center;
+    justify-content: space-between;
+    span {
+      font-family: 'Mulish';
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.45);
+    }
+  }
+  .camera-ico {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background: #9398A7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
